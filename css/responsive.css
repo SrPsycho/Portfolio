@@ -1,0 +1,153 @@
+@media (max-width:1250px){
+    :root{
+        --background-morado:#25202B;
+        --elementos-morado:#33196B;
+        --detalles-morado:#811DD0;
+        --detalles-violeta:#9075CA;
+        --letras-blanco:#DBDBDB;
+     
+     }
+    header{
+        width: 100%;
+        z-index: 1;
+        position: sticky;
+        position: -webkit-sticky;
+        top: 0;
+    }
+    .logo{
+        width: 3rem;
+    }
+    body{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .opcMenu{
+        display: none; 
+     }
+    .introduccion{
+        width: 75%;
+    }
+    .proyectos{
+        display: flex;
+        margin-top:50px;
+        justify-content: center; 
+     }
+    .ordenProyectos{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        gap: 25px;
+    }
+    .proy1,.proy2,.proy3{
+        background-position: center;
+     }
+ 
+    .project{
+        width: 70%;
+    }
+    .contenedor{
+      width: 50%;
+      height: 15px;
+   
+    }
+    .proyecto1,.proyecto2,.proyecto3{
+        flex-direction: column;
+     }
+     .proyecto2{
+        flex-direction: column-reverse;
+       
+     }
+     .bloqueInformacion,.descripcion{
+        font-size: 1rem;
+        width: 100%;
+     }
+     .botones,.btns2{
+        display: flex;
+        gap: 25px;
+        justify-content: center;
+     }
+     .demo,.repo{
+        width: 150px;
+     }
+    .gif{
+        width: 80%;
+     }
+     .masGrande{
+        width: 95%;
+     }
+     .mockups{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        gap: 25px;
+     }
+     .disenos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+     }
+     .gif2{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+     }
+     .mck1:hover,.mck2:hover,.mck3:hover{
+      transform: scale(1.1);
+   }
+     .primerBloque{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 25px;
+     }
+     .acerca_de_mi{
+        font-size: 1rem;
+        width: 90%;
+     }
+     .tercerBloque{
+        margin: 50px;
+     }
+    
+     .masInfo{
+        flex-direction: column;
+        justify-content: center;
+     }
+     .info1{
+      display: none;
+     }
+     /* CREACION DEL MENU HAMBURGUESA */
+     .btnMenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: transparent;
+        border: none;
+        color: var(--detalles-morado);
+        font-size: 2.5rem;
+        padding-right: 25px;
+     }
+     .opcMenuHamb{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        right: 5px;
+        text-align: end;
+        font-family: 'Oswald', sans-serif; 
+        color: var(--detalles-morado);
+        gap: 15px;
+        font-size: 1.2rem;
+        padding: 25px;
+        line-height: 35px;
+        z-index: 1;
+        width: 7rem;
+        /* From https://css.glass */
+      background: rgba(144, 117, 202, 0.37);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(9.1px);
+      -webkit-backdrop-filter: blur(9.1px);
+      border: 1px solid rgba(144, 117, 202, 0.4);
+     }
+}

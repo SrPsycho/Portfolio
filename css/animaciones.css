@@ -1,0 +1,66 @@
+:root{
+    --background-morado:#25202B;
+    --elementos-morado:#33196B;
+    --detalles-morado:#811DD0;
+    --detalles-violeta:#9075CA;
+    --letras-blanco:#DBDBDB;
+ 
+ }
+
+@keyframes pulsingEffect{
+    0%{
+        box-shadow: var(--detalles-violeta) 0 0 0 0;
+    }
+    100%{
+        box-shadow: #c8afe900 0 0 0 16px;
+    }
+}
+@keyframes llenarBarrita{
+    from{
+        width: 0%;
+    }
+   to{
+        width: 100%;
+    }
+}
+@keyframes llenarBarrita2{
+    from{
+        width: 0%;
+    }
+   to{
+        width: 80%;
+    }
+}
+@keyframes llenarBarrita3{
+    from{
+        width: 0%;
+    }
+   to{
+        width: 65%;
+    }
+}
+@keyframes llenarBarrita4{
+    from{
+        width: 0%;
+    }
+   to{
+        width: 50%;
+    }
+}
+@keyframes llenarBarrita5{
+    from{
+        width: 0%;
+    }
+   to{
+        width: 90%;
+    }
+}
+
+@keyframes subrayar {
+    0%{
+        
+    }
+    100%{
+        text-decoration: underline var(--detalles-morado);
+    }
+}

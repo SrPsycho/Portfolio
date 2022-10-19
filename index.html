@@ -1,0 +1,314 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/fontawesome-free-6.2.0-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@400;800&family=Oswald:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/animaciones.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <title>Matias Hausen</title>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <img src="/assets/iconos/Logo glitch.png" alt="logo de la empresa" class="logo">
+            <button class="btnMenu" onclick="abrirMenu()" id="btnHamb"><i class="fa-solid fa-bars"></i></button>
+           
+            <ul class="opcMenu">
+                <li class="liMenu"><a href="#proyecto1">Projects</a></li>
+                <li class="liMenu"><a href="#design">Designs</a></li>
+                <li class="liMenu"><a href="#about">About Me</a></li>
+                <li class="liMenu"><a href="#contacto" >Contact Me</a></li>
+            </ul>
+        </nav>
+        <ul class="opcMenuHamb" id="hambuguesa">
+            <li class="liMenuHam"><a href="#herramientas">Herramientas</a></li>
+            <li class="liMenuHam"><a href="#proyecto1">Proyectos</a></li>
+            <li class="liMenuHam"><a href="#design">Designs</a></li>
+            <li class="liMenuHam"><a href="#about">About Me</a></li>
+            <li class="liMenuHam"><a href="#contacto" >Contact Me</a></li>
+        </ul>
+    </header>
+ 
+    <main>
+        <div class="areaTitulo">
+            <h1 class="titulo" id="titulazo">Matias Hausen</h1>
+
+         
+                
+                <ul class="listaTitulo">
+                    <!-- Esto aparece cuando carga la pagina... se despliega del titulo -->
+                    <li class="itemTitulo">< FullStack Developer ></li>
+                    <li class="itemTitulo">< UX/UI Designer ></li>
+                    <li class="itemTitulo">< Game Developer ></li>
+                </ul>
+        </div>
+        <section class="areaIntro">
+            
+            <p class="introduccion">
+                    Desarrollador argentino con grandes aspiraciones, muchas ideas y siempre con algo para aportar! conoce un poco mas de mi! 
+                    <br>
+                    Soy parte del proyecto  
+                    <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="_blank" class="sponsors">ORACLE NEXT EDUCATION - "ONE"</a>
+                    en conjunto con <a href="https://www.aluracursos.com/?gclid=CjwKCAjwv4SaBhBPEiwA9YzZvOHHyhYx5ftrjvGof87WD0rOr37uBC6y7y720VqAn3_TjDXblGVSdRoCXCkQAvD_BwE" target="_blank" class="sponsors">Alura Latam</a>
+                    .
+                    <br>
+                    Estudiande de <a href="https://nucba.com.ar" target="_blank" class="sponsors">NUCBA</a> y sobretodo un autodidacta!
+                    <br>
+                    Me motiva desarrollar toda clase de proyectos, ya sea desde paginas, apps o videojuegos, tratando de aprender nuevas tecnologias o metodologias de trabajo para estar
+                    siempre a la vanguardia! 
+            </p>
+        </section>
+     
+
+        <section class="proyectos">
+            <h2 class="subTitulos">Proyectos recientes</h2>
+
+            <div class="ordenProyectos">
+                <div class="project proy1">
+                    <a href="https://aires-de-uco.vercel.app" target="_blank" class="labelSubTitulo">Aires de Uco</a>
+                </div>
+                <div class="project proy2">
+                    <a href="https://gladiators-gym.vercel.app" target="_blank" class="labelSubTitulo">Gladiators Gym</a>
+                </div>
+                <div class="project proy3" id="herramientas">
+                    <a href="https://landing-page-1-pied.vercel.app" class="labelSubTitulo">PropLand</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="herramientas" >
+            <h2 class="subTitulos" >Tecnologias</h2>
+            <p class="bajoTitulo">Siempre mejorando!</p>
+            <div class="listadoTech">
+                <div class="zonaListado">
+                    <i class="fa-brands fa-html5 html"></i>
+                    <div class="contenedor">
+                        <div class="barrita" id="bar">100%</div>
+                    </div>
+                    
+                </div>
+                <div class="zonaListado">
+                    <i class="fa-brands fa-css3-alt css"></i>
+                    <div class="contenedor">
+                        <div class="barrita " id="bar1">90%</div>
+                    </div>
+                </div>
+                <div class="zonaListado">
+                    <i class="fa-brands fa-square-js js"></i>
+                    <div class="contenedor">
+                        <div class="barrita " id="bar2">80%</div>
+                    </div>
+                </div>
+                <div class="zonaListado">
+                    <img src="/assets/iconos/mySQL.png" alt="mySQL" class="logoImagen">
+                    <div class="contenedor">
+                        <div class="barrita " id="bar3">65%</div>
+                    </div>
+                </div>
+                <div class="zonaListado">
+                    <img src="/assets/iconos/csharp.png" alt=""  class="logoImagen">
+                    <div class="contenedor">
+                        <div class="barrita " id="bar4">50%</div>
+                    </div>
+                </div>
+                <div class="zonaListado">
+                    <img src="/assets/iconos/unity.png" alt="Logo Unity"  class="logoImagen">
+                    <span class="soon">/* Coming Soon! */</span>
+                    <img src="/assets/iconos/unreal.png" alt="Logo Unreal" class="logoImagen">
+                </div>
+            </div>
+            
+        </section>
+
+        <section class="proyDescripcion"  id="proyecto1">
+            <h2 class="subTitulos">Proyectos</h2>
+            <p class="bajoTitulo">Ultimos proyectos realizados</p>
+            <div class="proyecto1">
+                <img src="/assets/gifs/Calculadora.gif" alt="Calculadora" class="gif" loading="lazy">
+                <div class="bloqueInformacion">
+                    <span class="descripcion">Una calculadora hecha con HTML,CSS y JavaScript, un desafio simple
+                        pero entretenido para trabajar con variables, eventos y jugar un poco con los diseños,
+                        se le implementó un boton para cambiar entre un tema oscuro y uno claro, a preferencia
+                        del usuario, siendo el tema oscuro el tema por defecto.
+                    </span>
+                    <div class="botones">
+                        <a href="https://calculadora-seven-flax.vercel.app" target="_blank"><button class="demo">Demo</button></a>
+                        <a href="https://github.com/SrPsycho/Calculadora" target="_blank"><button class="repo">Repo</button></a>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="proyecto2" id="proyecto2">
+                <div class="bloqueInformacion">
+                    <span class="descripcion">Segundo proyecto trabajado con el grupo Alura, el challenge consistia en crear
+                        un juego del ahorcado usando javascript y todo lo que eso conlleva, desde la interaccion del usuario
+                        con el juego, hasta la logica del mismo para evitar que se repitan letras, encontrar las letras correctas
+                        y marcar los errores.
+                    </span>
+                    <div class="botones btns2">
+                        <a href="https://srpsycho.github.io/Sprint02/" target="_blank"><button class="demo">Demo</button></a>
+                        <a href="https://github.com/SrPsycho/Sprint02" target="_blank"><button class="repo">Repo</button></a>
+                    </div>
+                    
+                </div>
+                <img src="/assets/gifs/Ahorcado.gif" alt="El Ahorcado" class="gif masGrande" loading="lazy">
+            </div>
+            <div class="proyecto3" id="proyecto3">
+                <img src="/assets/gifs/Encriptador.gif" alt="Encriptador" class="gif masGrande" loading="lazy">
+                <div class="bloqueInformacion">
+                    <span class="descripcion">Mi primer proyecto trabajando con Alura, consiste en un encriptador de texto
+                        en el cual puedes colocar cualquier palabra de un lado para ser transformada en otra totalmente distinta
+                        y que solo puede ser desencriptada desde la misma pagina con otro boton.
+                    </span>
+                    <div class="botones">
+                        <a href="https://srpsycho.github.io/encriptador/" target="_blank"><button class="demo">Demo</button></a>
+                        <a href="https://github.com/SrPsycho/encriptador" target="_blank"><button class="repo">Repo</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="disenos" id="design">
+            <h2 class="subTitulos">Diseños</h2>
+            <p class="bajoTitulo">Algunos mockups trabajados recientemente...</p>
+            <div class="mockups">
+                <div class="mck1">
+                    <a href="https://desafio-2-nucba-matpnrfiv-srpsycho.vercel.app" target="_blank"><img src="/assets/gifs/Feedback.gif" alt="Feedback" class="gif2" loading="lazy"></a>
+                    <span class="nombre">FEEDBACK</span>
+                </div>
+                <div class="mck2">
+                    <a href="https://desafio-4-nucba-czn3j1foa-srpsycho.vercel.app" target="_blank"><img src="/assets/gifs/Usuario.gif" alt="Heisenberg" class="gif2" loading="lazy"></a>
+                    <span class="nombre">USUARIO</span>
+                </div>
+                <div class="mck3">
+                    <a href="https://desafio-3-nucba-7i68qcdr4-srpsycho.vercel.app" target="_blank"><img src="/assets/gifs/Turnos.gif" alt="Turnos" class="gif2" loading="lazy"></a>
+                    <span class="nombre">TURNOS</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="aboutMe" id="about">
+            <h2 class="subTitulos">About Me</h2>
+            <div class="primerBloque">
+                <div class="flip-card">
+                    <div class="contenido_carta">
+                        <div class="carta_frente">
+                        </div>
+                        <div class="Carta_back">
+                            <h2 class="subTitulos3">Matias Hausen</h2>
+                            <p class="pequenoTexto">Developer & Researcher</p>
+                        </div>
+                    </div>
+                </div>
+                <p class="acerca_de_mi">Tengo 21 años, soy de Mendoza, Argentina
+                    Empecé estudiando programacion luego de pasar por carreras como ingenieria y diseño,
+                    considero que la programacion es el futuro y me encanta estar relacionado con la tecnologia,
+                    aprendo rapido, me adapto facilmente y soy capaz de crear poryectos desde cero solo o trabajando
+                    con grupos.
+                    <br>
+                    <br>
+                    Estoy en continuo aprendizaje, ahora mismo estoy aprendiendo Diseño 3D, Back-End entre otras cosas,
+                    soy un apasionado por los idiomas, por lo que siempre me gusta aprender algo nuevo sobre estos, proxima meta: Aleman y Frances
+                </p>
+            </div>
+            <div class="segundoBloque">
+                <div class="Skills">
+                    <h2 class="tituloAbout">Skills</h2>
+                    <ul class="listaAbout">
+                        <li>Responsive Design</li>
+                        <li>UX Research</li>
+                        <li>Scrum Master</li>
+                        <li>Scene Design</li>
+                        <li>Character Design</li>
+                    </ul>
+                </div>
+                <div class="Hobbies">
+                    <h2 class="tituloAbout">Hobbies</h2>
+                    <ul class="listaAbout">
+                        <li>Videogames</li>
+                        <li>Gym</li>
+                        <li>Read...a lot</li>
+                        <li>Movies</li>
+                        <li>Series</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="tercerBloque">
+                <h2 class="tituloAbout">Estudios</h2>
+                    <p class="descripcionAbout">
+                        <h3 class="minititulo">NUCBA:</h3>
+                        FullStack developer, Conocimiento en HTML,CSS, JavaScript, proximamente React.js y Node,js
+                        <h3 class="minititulo">ALURA:</h3>
+                        FullStack Developer, Front End, Back End, Java.
+                        <h3 class="minititulo">Universidad Nacional de Cuyo:</h3>
+                        UX/UI Development, UX research
+                        <h3 class="minititulo">Freelance:</h3>
+                        Level Design, Character Design, StoryTelling
+                        <h3 class="minititulo">Idiomas:</h3>
+                        Ingles B2, Portugues A2
+                    </p>
+                
+            </div>
+        </section>
+
+        <section class="contactos" id="contacto">
+            <h2 class="subTitulos">Contacto</h2>
+            <div class="contacto">
+                <div class="cont1">
+                    <a href="mailto:matihausen@gmail.com"><img src="/assets/iconos/gmail.png" alt="Logo Gmail" class="imgCont"></a>
+                </div>
+                <div class="cont2">
+                    <a href="https://www.linkedin.com/in/matihausen/" target="_blank"><img src="/assets/iconos/Linkedin.png" alt="Logo Linkedin" class="imgCont"></a>
+                </div>
+                <div class="cont3">
+                    <a href="https://www.instagram.com/mati_hausen/" target="_blank"><img src="/assets/iconos/instagram.png" alt="Logo Insta" class="imgCont"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        
+        <section class="masInfo">
+            <div class="info1">
+                <h3 class="subTituloInfo">Contacto</h3>
+                <div class="linea"></div>
+                <ul>
+                    <li>
+                        <a href="mailto:matihausen@gmail.com" target="_blank">Email</a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/matihausen/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/mati_hausen/" target="_blank">Instagram</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="info2">
+                <h3 class="subTituloInfo">Trabajo</h3>
+                <div class="linea"></div>
+                <ul>
+                    <li>
+                        <a href="https://github.com/SrPsycho" target="_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="#design">Diseños</a>
+                    </li>
+                    <li>
+                        <a href="#proyecto1">Proyectos</a> 
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <p class="copy">&copy Matias Hausen - 2022</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
